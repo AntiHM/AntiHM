@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AntiHM — Маска знята: Хто стоїть за Hosting-Minecraft</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Навігаційна панель -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Anti<span>HM</span></a>
+            <div class="badge-investigation">🔴 РОЗСЛІДУВАННЯ БЕЗПЕКИ</div>
+        </div>
+    </nav>
+
+    <!-- Головний екран (Hero) -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="subtitle">Аналіз цифрового сліду та юридичних даних</span>
+            <h1>Правда про <span class="text-blue">Hosting-Minecraft.eu</span></h1>
+            <p class="hero-lead">
+                Переконливі технічні та юридичні докази того, що так званий «європейський та український хостинг» є прямим продовженням російського сервісу <span class="text-red">hosting-minecraft.pro</span>.
+            </p>
+            <div class="hero-badges">
+                <div class="h-badge"><span class="dot blue"></span> UA/EU Фасад</div>
+                <div class="h-badge"><span class="dot red"></span> RU Бенефіціари</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Головна стаття -->
+        <main class="main-card">
+            <div class="article-header">
+                <h2>Hosting-Minecraft.eu: як «український/європейський» Minecraft-хостинг пов’язаний із росією</h2>
+                <div class="meta-source">Стаття базується на матеріалах розслідування сайту <a href="https://allmc.in.ua/blog/hosting-minecraft-eu" target="_blank">AllMC</a></div>
+            </div>
+
+            <!-- Короткий висновок з інтерактивним ланцюгом -->
+            <section class="verdict-section">
+                <div class="verdict-title">
+                    <span class="icon">📋</span>
+                    <h3>Короткий висновок розслідування</h3>
+                </div>
+                <p>
+                    На головній сторінці своєї української версії сервіс прямо та амбітно називає себе <strong>«європейським та українським Minecraft-хостингом №1»</strong>. Проте глибокий аналіз юридичних, комерційних та мережевих даних виявляє чітко замаскований ланцюг, що веде безпосередньо до Москви:
+                </p>
+
+                <!-- Візуальний ланцюжок доказів -->
+                <div class="timeline">
+                    <div class="timeline-item item-blue">
+                        <div class="tl-number">01</div>
+                        <div class="tl-content">
+                            <h4>Офіційний оператор</h4>
+                            <p><strong>Hosting-Minecraft.eu</strong> у своїх правилах та політиці конфіденційності офіційно вказує оператором польську компанію <strong>SEBEK sp. z o.o.</strong></p>
+                        </div>
+                    </div>
+                    <div class="timeline-item item-neutral">
+                        <div class="tl-number">02</div>
+                        <div class="tl-content">
+                            <h4>Створення фірми</h4>
+                            <p>Компанія <strong>SEBEK sp. z o.o.</strong> реєструється у Польщі <strong>10.08.2022</strong> (вже після початку повномасштабного вторгнення рф в Україну).</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item item-neutral">
+                        <div class="tl-number">03</div>
+                        <div class="tl-content">
+                            <h4>Керівництво</h4>
+                            <p>У публічних бізнес-реєстрах членами правління та учасниками SEBEK фігурують <strong>Roman Yezhov</strong> та <strong>Vladyslav Horodnytskyi</strong>.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item item-purple">
+                        <div class="tl-number">04</div>
+                        <div class="tl-content">
+                            <h4>Мережевий зв'язок (BGP)</h4>
+                            <p>Технічні дані автономної системи (BGP/RIPE) компанії SEBEK напряму вказують на взаємозв'язок із доменом <strong class="text-red">hosting-minecraft.pro</strong>.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item item-red">
+                        <div class="tl-number">05</div>
+                        <div class="tl-content">
+                            <h4>Російське дзеркало</h4>
+                            <p>Російський домен <strong>Hosting-Minecraft.ru</strong> автоматично перенаправляє всіх користувачів на єдину панель білінгу <strong>my.hosting-minecraft.pro</strong>.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item item-critical">
+                        <div class="tl-number">06</div>
+                        <div class="tl-content">
+                            <h4>Кінцева юрисдикція</h4>
+                            <p>Юридичний контур <strong>Hosting-Minecraft.pro</strong> належить російському індивідуальному підприємцю: <strong>ІП Наумов Дмитрий Игоревич</strong> (Москва, рф), який діє за законами рф та звітує перед її спецслужбами.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="verdict-summary">
+                    <strong>Ключова теза розслідування:</strong> Головний ризик полягає не в існуванні очевидного російського домену .ru. Проблема в іншому — бренд <strong>Hosting-Minecraft.eu</strong>, створений спеціально для українського ринку, через юридичну ширму SEBEK sp. z o.o. технічно та комерційно нерозривно пов'язаний із платформою .pro, що має виключно російську реєстрацію, інфраструктуру та податкову звітність.
+                </div>
+            </section>
+
+            <!-- Блок 1 -->
+            <section class="article-section">
+                <h3>1. Юридична прив'язка: SEBEK sp. z o.o. як оператор</h3>
+                <p>Перший беззаперечний доказ прихований не в дизайні чи маркетингових гаслах сайту, а в офіційних юридичних документах самого <em>Hosting-Minecraft.eu</em>.</p>
+                <p>У правилах користування (ToS) чітко зазначено, що постачальником послуг під цим доменом є:</p>
+                <div class="doc-quote">
+                    <strong>SEBEK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ</strong><br>
+                    <span>Адреса:</span> ul. Żeńców 30, 30-734 Kraków, Polska<br>
+                    <span>Податковий номер (NIP):</span> 6793245589
+                </div>
+                <p>У політиці конфіденційності сервісу саме ця польська компанія вказана як головний адміністратор та володілець персональних даних усіх клієнтів. Це доводить, що європейська версія юридично ізольована на папері через SEBEK.</p>
+            </section>
+
+            <!-- Блок 2 -->
+            <section class="article-section">
+                <h3>2. Що відомо про SEBEK sp. z o.o.?</h3>
+                <p>Аналіз офіційних польських судових та бізнес-реєстрів (KRS) надає наступні точні реквізити:</p>
+                <div class="table-container">
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>Параметр реєстрації</th>
+                                <th>Офіційні дані з реєстру Польщі</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Повна назва</strong></td>
+                                <td>SEBEK SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Дата реєстрації</strong></td>
+                                <td class="highlight-date">10.08.2022 (Після початку великої війни)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Ідентифікатори</strong></td>
+                                <td>KRS: 0000986899 | REGON: 522826150</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Керівний склад</strong></td>
+                                <td>Roman Yezhov (член правління), Vladyslav Horodnytskyi (член правління)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Профіль діяльності</strong></td>
+                                <td>Код 63.11.Z — Обробка даних, хостинг, управління веб-сторінками</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>Дані підтверджуються авторитетними європейськими реєстрами бізнесу, зокрема ALEO та GoWork. Це не випадкова фірма-пустушка, а цілеспрямовано створена хостингова структура.</p>
+            </section>
+
+            <!-- Блок 3 -->
+            <section class="article-section">
+                <h3>3. Технічний місток: Мережеві дані BGP / RIPE</h3>
+                <p>Найбільш вагомим та незаперечним технічним доказом є аналіз інфраструктури Інтернету. Інструмент глобального моніторингу мереж <strong>BGP.tools</strong> фіксує автономну систему <strong>AS213633</strong>, яка зареєстрована безпосередньо на компанію <em>SEBEK sp. z o.o.</em></p>
+                <p>У відкритому Whois-профілі цієї автономної системи прописані наступні обов'язкові поля:</p>
+                <div class="code-box">
+aut-num:   AS213633
+as-name:   Digital-Solutions
+descr:     Hosting-Minecraft.pro
+descr:     Hosting-VDS.com
+remarks:   https://hosting-minecraft.pro
+org-name:  SEBEK sp. z o.o</div>
+                <p>Записи BGP — це не маркетинговий текст, який можна змінити за хвилину. Це залізобетонна архітектура маршрутизації інтернету. Якщо мережа польської SEBEK офіційно описується через російський домен <strong>Hosting-Minecraft.pro</strong>, це є прямим доказом єдиного технічного ядра обох сервісів.</p>
+            </section>
+
+            <!-- Блок 4 -->
+            <section class="article-section">
+                <h3>4. Спільна інфраструктура та білінг</h3>
+                <p>Російський домен <em>Hosting-Minecraft.ru</em> не є чимось відокремленим. Він повністю функціонує як вітрина, де кнопки замовлення послуг перенаправляють користувача на загальну білінгову панель <strong>my.hosting-minecraft.pro</strong>.</p>
+                <p>Усередині цього російськомовного білінгу інтегрована мультивалютність із чіткими внутрішніми курсами перерахунку (наприклад, 1€ = 90 RUB / 51 UAH). Крім того, у меню послуг користувачам відкрито пропонуються сервери VPS/VDS, розміщені у <strong>московських дата-центрах</strong>.</p>
+            </section>
+
+            <!-- Блок 5 -->
+            <section class="article-section">
+                <h3>5. Кінцева точка: Російська юрисдикція .PRO</h3>
+                <p>Остаточну крапку в цьому дослідженні ставить документація самого сайту <em>Hosting-Minecraft.pro</em>. Згідно з чинною політикою конфіденційності цього домену, оператором сервісу офіційно виступає:</p>
+                <div class="doc-quote quote-red">
+                    <strong>ІП «НАУМОВ ДМИТРИЙ ИГОРЕВИЧ»</strong><br>
+                    <span>ОГРНИП:</span> 324900100033049 | <span>ИНН рф:</span> 900201272810<br>
+                    <span>Юридична адреса:</span> Москва, Російська Федерація
+                </div>
+                <p>Документи прямо регламентують, що обробка, систематизація та зберігання персональних даних користувачів здійснюються на серверах та в базах даних, <strong>розміщених на території Російської Федерації</strong>, відповідно до федерального закону рф №152-ФЗ «О персональных данных».</p>
+                <p>Понад те, документи передбачають безумовну передачу будь-яких даних користувачів за запитами правоохоронних чи контролюючих органів держави-агресора (ФСБ, МВС тощо).</p>
+            </section>
+
+            <!-- Висновок моніторингу -->
+            <section class="article-section position-section">
+                <h3>Позиція української Minecraft-спільноти</h3>
+                <p>Під час жорстокої війни вибір хостингу перестає бути просто технічним вибором кількості оперативної пам'яті. Це питання безпеки, фінансової гігієни та моральної відповідальності.</p>
+                <p>Кожен українець, який оплачує послуги на сервісі з подібним прихованим ланцюгом, має усвідомлювати: його гроші прямо чи опосередковано підтримують бізнес-інфраструктуру, яка платить податки в бюджет рф, фінансуючи ракети, та надає доступ до даних користувачів російським спецслужбам.</p>
+                <p><strong>Ми закликаємо всіх власників українських серверів негайно перевірити свої хостинги та свідомо перенести проекти на безпечні платформи без російського сліду.</strong></p>
+            </section>
+
+            <!-- Кнопки з доказами -->
+            <div class="evidence-grid">
+                <a href="https://allmc.in.ua/blog/hosting-minecraft-eu" target="_blank" class="btn-evidence btn-blue">Оригінальна стаття AllMC</a>
+                <a href="https://web.archive.org/web/20260410192201/https://hosting-minecraft.eu/tos.html" target="_blank" class="btn-evidence">Правила Hosting-Minecraft.eu (Архів)</a>
+                <a href="https://web.archive.org/web/20260116004714/https://hosting-minecraft.eu/privacy-policy.html" target="_blank" class="btn-evidence">Політика конфіденційності .EU (Архів)</a>
+                <a href="https://www.gowork.pl/sebek-sp.-z-o.o.%2C25991092/dane-kontaktowe-firmy" target="_blank" class="btn-evidence">Профіль SEBEK на GoWork</a>
+                <a href="https://web.archive.org/web/20260601112201/https%3A%2F%2Faleo.com%2Fpl%2Ffirma%2Fsebek-spolka-z-ograniczona-odpowiedzialnoscia-krakow" target="_blank" class="btn-evidence">Профіль SEBEK на ALEO (Архів)</a>
+                <a href="https://allmc.in.ua/blog/hosting-minecraft-eu#user-content-fnref-bgp-as" target="_blank" class="btn-evidence">BGP.tools Інфраструктура AS213633</a>
+            </div>
+        </main>
+
+        <!-- Відео докази -->
+        <section class="video-section">
+            <div class="section-title-center">
+                <h2>Відео-розслідування та аналітика</h2>
+                <p>Рекомендуємо детально переглянути це відео, щоб остаточно переконатися у фактах та дізнатися більше деталей про роботу сервісу.</p>
+            </div>
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/1jMU-OqHfv8?start=12" title="YouTube відео розслідування" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Альтернативи -->
+        <section class="alternatives-section">
+            <div class="section-title-center">
+                <h2>Надійні українські аналоги</h2>
+                <p>Безпечні, швидкі хостинги з українським корінням, що працюють на перемогу та підтримують нашу спільноту.</p>
+            </div>
+            <div class="cards-grid">
+                <div class="alt-card card-glow-blue">
+                    <div class="card-brand">GodLike</div>
+                    <p>Сучасний ігровий хостинг з високим захистом та потужним залізом.</p>
+                    <a href="https://godlike.host/ua/" target="_blank" class="card-link">Перейти на сайт</a>
+                </div>
+                <div class="alt-card card-glow-blue">
+                    <div class="card-brand">MajorCore</div>
+                    <p>Надійне та перевірене часом рішення для серверів будь-якого масштабу.</p>
+                    <a href="https://majorcore.com/game" target="_blank" class="card-link">Перейти на сайт</a>
+                </div>
+                <div class="alt-card card-glow-blue">
+                    <div class="card-brand">LeaveHosting</div>
+                    <p>Зручний клієнтський інтерфейс та стабільна якість ігрових серверів.</p>
+                    <a href="https://client.leavehosting.com/" target="_blank" class="card-link">Перейти на сайт</a>
+                </div>
+                <div class="alt-card card-glow-blue">
+                    <div class="card-brand">DragonSevenUA</div>
+                    <p>Українська ігрова спільнота та якісна технічна підтримка серверів.</p>
+                    <a href="https://discord.gg/q99X2ajT8p" target="_blank" class="card-link btn-discord">Наш Discord</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Заклик до дії (CTA) -->
+        <section class="cta-card">
+            <div class="cta-content">
+                <h3>Маєте власний український хостинг?</h3>
+                <p>Якщо ви хочете бачити свій хостинг у списку рекомендованих аналогів без російського сліду — зв'яжіться з нами!</p>
+                <a href="https://t.me/antihm_bot" target="_blank" class="btn-tg">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15.45-5.3 21.6-5.3 21.6s-.08.23-.27.23c-.12 0-.23-.07-.23-.07l-4.14-3.14-2.18 2.1c-.13.13-.3.2-.48.2-.15 0-.3-.04-.43-.13-.23-.15-.35-.4-.35-.68V16.3l11.66-10.58c.12-.1.17-.26.1-.4-.06-.15-.22-.22-.38-.17L4.76 11.2 1.34 10.1c-.34-.1-.54-.45-.44-.78.07-.22.25-.38.48-.43l20-7.7c.33-.13.7.03.83.36.05.14.05.3 0 .45z"/></svg>
+                    Написати в Telegram бот @antihm_bot
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Підвал сайту -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-domain">antihm.biz.ua</div>
+            <div class="footer-love">
+                2026 Створено з любов'ю в <span class="flag-blue">Ук</span><span class="flag-yellow">раїні</span> ❤️
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
